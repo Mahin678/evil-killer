@@ -1,0 +1,46 @@
+header {
+    background-image: url("./img/header-img.jpg");
+    padding-bottom: 4rem;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.navbar-option a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin: 0px 20px;
+}
+.navbar {
+    position: fixed !important;
+    width: 100%;
+}
+.navbar.scrolled {
+    background-color: aqua !important;
+    transition: background-color .2s;
+}
+.navbar-brand {
+    color: #fff !important;
+    font-weight: bold;
+}
+.hero-content {
+    text-align: center;
+    color: #fff;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero-content p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 17px; 
+}
+.next-content span {
+    font-size: 48px;
+}
+/* Who is next content */
+.next-content {
+    text-align: center;
+    padding: 5rem 0rem;
+}
+

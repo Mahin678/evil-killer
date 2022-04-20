@@ -1,0 +1,61 @@
+.game-container {
+    text-align: center;
+}
+.score-wrap {
+    margin: 50px auto 0px; 
+    /* text-transform: uppercase; */
+    font-size: 16px;
+}
+.game-board {
+    height: 400px;
+    width: 500px;
+    background-color: rgb(233, 233, 233);
+    margin: 10px auto 0px; 
+    border: 4px solid rgba(255, 0, 0, .1);
+    box-shadow: 10px 30px 30px 0px rgba(0, 0, 0, 0.1);
+    border-radius:  2px;
+    /* cursor: url(./img/the-flagpole-g6104ef394_1920.jpg) 15 15, move;
+     */
+     /* cursor: url("https://cdn.pixabay.com/photo/2018/08/14/11/35/russia-3605381_960_720.jpg"), auto; */
+     cursor: crosshair;
+     border-bottom: 4px dotted red;
+     overflow: hidden;
+     position: relative;
+}
+.game-board img {
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    display: block;
+}
+.game-over {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.241);
+    font-size: 48px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    display: none;
+    position: absolute;
+    top: 0px;
+    cursor: pointer;
+    z-index: 9999;
+    color: #fff;
+}
+.game-over-hide {
+    display: block;
+}
+.game-over button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+    border: none;
+    background-color: rgba(0, 128, 0, 0.772);
+    color: #fff;
+    border-radius: 4px;
+    font-size: 18px;
+}
+.audio, .audio-end {
+    visibility: hidden;
+}

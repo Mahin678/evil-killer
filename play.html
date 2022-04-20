@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div class="game-container">
+        <h2>Kill The Evil</h2>
+        <div class="game-control" >
+            <button class="start-btn">Start</button>
+        </div>
+        
+        <div class="score-wrap">Kill : <span class="score">0 </span></div>
+        <div class="game-board">
+            <div class="board-inside">
+            </div>
+            <div class="game-over">
+                <h4>Game Over</h4>
+                <button class="try-again">Try Again</button>
+            </div>
+        </div>
+        <audio  class="audio" controls>
+            <source src="./img/mixkit-arcade-retro-changing-tab-206-[AudioTrimmer.com].wav" type="audio/ogg">
+          </audio>
+          <audio  class="audio-end" controls>
+            <source src="./img/mixkit-extra-bonus-in-a-video-game-2045.wav" type="audio/ogg">
+          </audio>
+    </div>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <script src="./game.js"></script>
+</body>
+</html>

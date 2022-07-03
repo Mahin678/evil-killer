@@ -20,8 +20,8 @@ function handleEvil(x, val) {
     })
     addContent = setInterval(() =>{
         if(start){
-                let number = 1 + Math.floor(Math.random() * 500);
-                $(".board-inside").append(`<img style="margin-left:${number}px" class="img" src="./img/evil.png" alt="">`)
+                let number = 1 + Math.floor(Math.random() * 490);
+                $(".board-inside").append(`<img style="margin-left:${number}px" class="img" src="./img/test.png" alt="">`)
                 if(!start) {
                     clearInterval(addContent);
                 }
@@ -59,13 +59,13 @@ $('.gm-level').each(function () {
         "Medium") {
             $(".start-btn").css("display", "inline-block"); 
             $(".game-control-level").css("display", "none"); 
-            handleEvil(800, false);
+            handleEvil(600, false);
         }
         else if($(this).text() == 
         "Hard") {
             $(".start-btn").css("display", "inline-block"); 
             $(".game-control-level").css("display", "none"); 
-            handleEvil(700, false);
+            handleEvil(350, false);
         }
         $(".gm-level").not(this).removeClass("active");
         $(this).addClass("active");
